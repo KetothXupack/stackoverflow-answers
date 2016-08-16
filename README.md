@@ -1,5 +1,5 @@
 # aspectj-spring-boot-example
-An example spring-aop &amp; spring-boot multi-module project example for SO question http://stackoverflow.com/questions/38943134/aspect-does-not-work-with-spring-boot-application-with-external-jar
+An example spring-aop &amp; spring-boot multi-module project example for SO question http://stackoverflow.com/q/38943134/3239417
 
 To run this example run
 
