@@ -24,7 +24,7 @@ public class MetricAspect {
     public Object measure(ProceedingJoinPoint joinPoint) throws Throwable {
         final Stopwatch timer = Stopwatch.createStarted(ticker);
         final Object result = joinPoint.proceed();
-        System.err.println("Execution took " + timer.elapsed(TimeUnit.MILLISECONDS) + "ms");
+        System.err.println("Call from aspect. Execution took " + timer.elapsed(TimeUnit.MILLISECONDS) + "ms");
         return result;
     }
 }
