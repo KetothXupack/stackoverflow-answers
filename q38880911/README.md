@@ -7,7 +7,7 @@ The main idea to implement next layout
     +- src/
        +- main/java   - sources
     +- src/test/
-       +- java        - test cources
+       +- java        - test sources
        +- perf        - benchmarks
 
 To run this example run
