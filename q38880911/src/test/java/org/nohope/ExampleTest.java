@@ -1,8 +1,15 @@
 package org.nohope;
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 /**
- * @author <a href="mailto:ketoth.xupack@gmail.com">Ketoth Xupack</a>
- * @since 2016-09-07 21:37
  */
 public class ExampleTest {
+    @Test
+    public void doSomethingTest() {
+        final Example example = new Example(100);
+        assertEquals(301989888, example.doSomething(2009));
+    }
 }
