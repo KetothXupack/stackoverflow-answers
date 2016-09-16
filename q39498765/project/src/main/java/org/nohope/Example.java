@@ -8,6 +8,7 @@ public final class Example {
     }
 
     public static void main(String[] args) {
-        System.err.println(InstrumentationAgent.findSizeOfObject("Hello world!"));
+        final String string = "Hello world!";
+        System.err.println('"' + string + "\" size is equal to " + InstrumentationAgent.findSizeOfObject(string));
     }
 }
